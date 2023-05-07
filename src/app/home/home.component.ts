@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  openResume(): void {
+    window.open('https://getbootstrap.com/docs/5.0/utilities/flex/')
+  }
+
 }
